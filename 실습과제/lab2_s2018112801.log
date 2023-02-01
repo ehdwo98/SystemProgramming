@@ -1,0 +1,88 @@
+    1  man
+    2  man man
+    3  man password
+    4  man 1 password
+    5  man 5 passwd
+    6  man 1 passwd
+    7  man ls
+    8  pwd
+    9  cd ~
+   10  cd /etc
+   11  cd
+   12  pwd
+   13  ls
+   14  cd lab1_s2018112801
+   15  ls -al
+   16  cd ..
+   17  cd .
+   18  cd lab1_s2018112801
+   19  ls
+   20  ./a.out
+   21  ls -al
+   22  ls -ltr
+   23  ls -lt
+   24  ls *.h
+   25  cd
+   26  ls *.h
+   27  cd /usr/include
+   28  ls
+   29  ls *.h
+   30  cd
+   31  ls
+   32  alias rm='rm -i'
+   33  rm lab2
+   34  rmkdir lab2
+   35  rm -rf lab2
+   36  ls
+   37  mkdir lab2
+   38  cd lab2
+   39  cp /usr/include/stdio.h testfile
+   40  ls -al
+   41  ls -l
+   42  mv testfile test
+   43  ls -l te[now hit a tab]
+   44  vi tistfile
+   45  ls - l test
+   46  ls -l test
+   47  cp test test2
+   48  ls -al
+   49  ls -l test
+   50  rm test2
+   51  ls
+   52  more
+   53  more test
+   54  less test
+   55  more test
+   56  head test
+   57  head -n20 test
+   58  tail test
+   59  ls
+   60  ls -al
+   61  cat knu.txt
+   62  touch knu.txt
+   63  ls -al
+   64  chmod a+x knu.txt
+   65  ls -al
+   66  ./knu.txt
+   67  chmod 640 knu.txt
+   68  ls -al
+   69  cdmod 777 knu.txt
+   70  chmod 777 knu.txt
+   71  ls -al
+   72  chmod 600 knu.txt
+   73  ls -al
+   74  ls -al > listing
+   75  cat listing
+   76  echo "KNUcat listing"
+   77  echo "KNU"
+   78  echo "KNU" >> listing
+   79  cat listing
+   80  wc
+   81  man wc
+   82  wc -1 < listing
+   83  wc -l <listing
+   84  grep putc /usr/include/*.h
+   85  cat /etc/passwd | grep knu
+   86  cat /etc/hosts
+   87  history
+   88  history > lab2_s2018112801.log
